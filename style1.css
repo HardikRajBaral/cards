@@ -50,7 +50,7 @@ span{
 }
 .price{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
    
 }
@@ -69,13 +69,12 @@ button{
     font-size:xx-large;
     color: blueviolet;
     
+    
 }
 
 .last{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-
     row-gap: 8px;
     height: fit-content;
     
